@@ -31,6 +31,10 @@ function App(): React.JSX.Element {
       <Text>Hello</Text>
       </View>
       <View style={{
+        /*positioning*/
+        position: 'relative', // default
+        // top: 10,
+        zIndex: 1, // more = closer to viewer
       }}>
         <Text>Some text here</Text>
       </View>
