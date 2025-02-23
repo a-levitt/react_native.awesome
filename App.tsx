@@ -23,12 +23,14 @@ function App(): React.JSX.Element {
         marginLeft: 100,
         marginBottom: 25,
         // marginHorizontal: 100,
+        /*paddings*/
+        padding: 7,
+        paddingBottom: 5,
+        // paddingHorizontal: 100,
       }}>
       <Text>Hello</Text>
       </View>
       <View style={{
-        /*margins*/
-
       }}>
         <Text>Some text here</Text>
       </View>
