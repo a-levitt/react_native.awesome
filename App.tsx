@@ -36,7 +36,19 @@ function App(): React.JSX.Element {
         // top: 10,
         zIndex: 1, // more = closer to viewer
       }}>
-        <Text>Some text here</Text>
+        <Text style={{
+          /*text settings*/
+          color: '#72A0C1',
+          fontFamily: 'Roboto',
+          fontSize: 18,
+          fontStyle: 'italic',
+          fontWeight: 'bold',
+          letterSpacing: 2,
+          lineHeight: 20,
+          textAlign: 'left',
+        }}>
+          Some text here
+        </Text>
       </View>
     </SafeAreaView>
   );
