@@ -1,6 +1,7 @@
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
 import SafeViewAndroid from './components/SafeViewAndroid';
+import MyText from './components/MyText/MyText';
 
 function App(): React.JSX.Element {
 
@@ -36,19 +37,7 @@ function App(): React.JSX.Element {
         // top: 10,
         zIndex: 1, // more = closer to viewer
       }}>
-        <Text style={{
-          /*text settings*/
-          color: '#72A0C1',
-          fontFamily: 'Roboto',
-          fontSize: 18,
-          fontStyle: 'italic',
-          fontWeight: 'bold',
-          letterSpacing: 2,
-          lineHeight: 20,
-          textAlign: 'left',
-        }}>
-          Some text here
-        </Text>
+        <MyText />
       </View>
     </SafeAreaView>
   );
