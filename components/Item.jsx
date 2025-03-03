@@ -3,9 +3,13 @@ import { View, Text } from 'react-native';
 import PropTypes from 'prop-types';
 
 function Item({name, price}) {
+  const handleTextClick = () => {
+    alert(`${name} was added to cart!`);
+  };
+
   return (
     <View key={name}>
-      <Text>{name}</Text>
+      <Text  onPress={() => handleTextClick()}>{name}</Text>
       <Text>{price} €</Text>
     </View>
   );
